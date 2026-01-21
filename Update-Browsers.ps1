@@ -38,7 +38,7 @@ $Config = @{
     # MSI filenames in the Azure File Share (update these if your filenames differ)
     ChromeMsiFilename  = "GoogleChromeStandaloneEnterprise64.msi"
     EdgeMsiFilename    = "MicrosoftEdgeEnterpriseX64.msi"
-    FirefoxMsiFilename = "Firefox Setup 134.0.msi"  # Update version number as needed
+    FirefoxMsiFilename = "FirefoxEnterprise64.msi"  # Update version number as needed
     
     # Downloads folder for MSI files (will be cleaned up after install)
     DownloadsFolder = Join-Path $env:USERPROFILE "Downloads"
