@@ -23,6 +23,7 @@ case "$1" in
         run iptables-save \> "${IPT_BACKUP}"
         run ls -la ipt_*
         run cat "${IPT_BACKUP}"
+        # If releasever prompt appears, use: run dnf update -y --releasever=latest
         run dnf update -y
         ;;
     -post)
